@@ -1,0 +1,114 @@
+body {
+	background: #ccc;
+	/*margin: 0;
+	padding: 0;*/
+	box-sizing: border-box;
+}
+
+div {
+	margin-top: 30px;
+}
+
+i {
+	cursor: pointer;
+}
+
+img#logo {
+	margin-left: 10px;
+	display: inline;
+	margin: -15px 30px;
+	width: 150px;
+	height: 40px;
+	background: url("https://cdn.mos.cms.futurecdn.net/SytNGv3ZxAVCkvcspmbbvh-970-80.jpg.webp");
+	background-repeat: no-repeat;
+	background-size: 150px 40px;
+}
+
+form {
+	margin-top: 30px;
+}
+
+iframe {
+	margin: 20px 0 -10px 0;
+}
+
+div.interaction-buttons {
+	margin-top: 0px;
+	display: flex;
+}
+
+div.interaction-buttons div.clear{
+	margin: 0 20px 0 0;
+}
+
+span {
+	cursor: pointer;
+}
+
+.space {
+	margin-left: 50px;
+}
+
+div.netfl {
+	display: flex;
+	margin-top: -15px;
+}
+
+img#netflix {
+	margin: 0 20px 0 0;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+div.netfl div.para {
+	margin-top: 21px;
+}
+
+div.netfl div.para .gap {
+	margin-top: -16px;
+}
+
+button {
+	background: #E50914;
+	border: none;
+	border-radius: 3px;
+	color: white;
+	padding: 10px 15px;
+	margin-left: 265px;
+}
+
+a.show {
+	cursor: pointer;
+	color: black;
+	text-decoration: none;
+}
+
+hr {
+	border: 1px solid black;
+}
+
+div.up-next {
+	margin: 0 0 20px 0;
+	display: flex;
+}
+
+@media (max-width: 1250px) {
+	div.up-next {
+		display: block;
+	}
+}
+
+div.recommended {
+	margin-top: -50px;
+	display: flex;
+}
+
+div.recommend-para {
+	font-size: 14px;
+	margin: 40px 0 0 7px;
+}
+
+div.recommend-para .space2 {
+	margin: -10px 0;
+}
